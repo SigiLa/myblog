@@ -10,12 +10,15 @@
     </div>
 
 
-    
+    <div>
+      <blog-footer></blog-footer>
+    </div>
   </div>
 </template>
 
 <script>
   import Nav from './components/Nav.vue'
+  import Footer from './components/footer.vue'
   require('./assets/imgs/alien.png')
   require('./assets/imgs/postmordennism.jpg')
 
@@ -23,19 +26,20 @@
     name: 'app',
     components: {
       'BlogNav': Nav,
+      'BlogFooter':Footer,
     }
   }
 
 </script>
 
 <style>
-  div.head {
+  /* div.head {
     display: flex;
     justify-content: center;
   }
 
 .bg-gray-dark{
   background-color: #24292e;
-}
+} */
 
 </style>
