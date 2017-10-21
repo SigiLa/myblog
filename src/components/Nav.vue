@@ -23,7 +23,7 @@
   export default {
     data() {
       return {
-        loginStatus: false
+        loginStatus: true
       }
     }
   }
@@ -52,13 +52,5 @@
     font-weight: 500;
     color: #fff;
   }
-  /* #head-font {
-    font-size: 1.5em;
-    font-weight: 500;
-    color: #fff;
-  } */
-  /* .navication h3 {
-
-  } */
 
 </style>

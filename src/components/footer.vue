@@ -1,12 +1,18 @@
 <template>
-  <footer id="colophon">
+  <div class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <a href="https://github.com/sigila">
+            <span style="color:#fff" class="icon is-medium">
+              <i class="fa fa-github fa-2x"></i>&nbsp;&nbsp;https://github.com/SigiLa
+            </span>
 
-<ul>
-  <li>Mail: gc96@sina.cn</li>
-  <li>Blog: sigila.github.io</li>
-</ul>
-  </footer>
-
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
 
 </template>
 <script>
@@ -16,13 +22,10 @@
 
 </script>
 <style>
-  #colophon {
-    font-family: "Open Sans", X-LocaleSpecific, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    margin-top: 7px;
-    padding: 5px;
-    
+  .footer {
+    padding: 2rem 1.5rem;
+    font-size: 1.1rem;
+    background-color: #000;
   }
 
 </style>
